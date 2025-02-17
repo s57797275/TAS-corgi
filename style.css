@@ -1,0 +1,90 @@
+/* 全局样式 */
+body {
+    background-color: #B22222;
+    color: #FFFFFF;
+    font-family: 'Kaiti SC', 'PingFang SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* 标题区样式 */
+header h1 {
+    font-family: 'Kaiti SC', serif;
+    font-size: 20vw;
+    margin: 0;
+}
+
+header h2 {
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 1vw 0;
+}
+
+header p {
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 2.5vw;
+    margin: 1vw 0;
+}
+
+/* 生成区域样式 */
+.generator {
+    margin: 5vw 0;
+}
+
+#generate-btn {
+    background-color: #FFD700;
+    color: #B22222;
+    border: none;
+    border-radius: 8px;
+    padding: 1.5vw 3vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#generate-btn:hover {
+    background: linear-gradient(to bottom, #FFA500, #FFD700);
+}
+
+#generate-btn:active {
+    transform: scale(0.95);
+}
+
+.output-box {
+    background-color: rgba(255, 250, 205, 0.8);
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    margin-top: 3vw;
+    padding: 2vw;
+    min-height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    word-wrap: break-word;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* 底部样式 */
+footer p {
+    font-family: 'Kaiti SC', serif;
+    font-size: 1.5vw;
+    margin: 2vw 0;
+}
